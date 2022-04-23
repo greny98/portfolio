@@ -125,11 +125,7 @@
 }
 
 /* -- ----------------------------------- For small screen ----------------------------------- -- */
-
 @media screen and (max-width: 900px) {
-  .home-bg {
-    background-position: -65vw 0;
-  }
   .avatar-container {
     display: none;
   }
@@ -146,5 +142,11 @@
 
   .position b {
     font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-bg {
+    background-position: -65vw 0;
   }
 }

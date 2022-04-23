@@ -40,11 +40,12 @@ header nav ul li {
   align-items: center;
 }
 
-header nav ul li:nth-of-type(1) {
+.li-active {
   border-bottom: 2px solid #253f8e;
 }
 
 ul li a {
+  cursor: pointer;
   text-decoration: none;
   padding: 4px 16px;
   display: inline-block;
@@ -53,7 +54,7 @@ ul li a {
   font-weight: 500;
 }
 
-header nav ul li:nth-of-type(1) a {
+.a-active {
   color: #253f8e;
 }
 
